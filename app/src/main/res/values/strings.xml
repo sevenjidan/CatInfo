@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CatInfo</string>
+
+    <array name="cat_image">
+        <item>@drawable/cat</item>
+    </array>
+
+    <array name="cat_name">
+        <item>Abyssinian</item>
+    </array>
+    <array name="cat_origin">
+        <item>Egypt</item>
+    </array>
+
+    <!--////getCatData-->
+    <!--val catServices = ApiRepository.create()-->
+    <!--catServices.getBreeds().enqueue(object : Callback<List<CatModel>> {-->
+
+
+    <!--override fun onResponse(call: Call<List<CatModel>>, response: Response<List<CatModel>>) {-->
+    <!--if (response.isSuccessful) {-->
+    <!--val data = response.body()-->
+    <!--Log.e("tag", "responsennya ${data?.size}")-->
+
+    <!--data?.map {-->
+    <!--Log.d("tag", "datanya ${it.name}")-->
+    <!--}-->
+    <!--}-->
+    <!--}-->
+
+    <!--override fun onFailure(call: Call<List<CatModel>>, t: Throwable) {-->
+    <!--Log.e("tag", "errornya ${error(message = Any())}")-->
+
+    <!--}-->
+
+    <!--})-->
+</resources>
